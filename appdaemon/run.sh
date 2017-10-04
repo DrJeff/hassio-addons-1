@@ -4,7 +4,7 @@ set -e
 CONFIG_PATH=/data/options.json
 CONFIG_DIR=/config/hadaemon
 
-DOMAIN=$(jq --raw-output ".domain" $CONFIG_PATH)
+DOMAIN=$(jq --raw-output "" $CONFIG_PATH)
 
 if [ ! -d ${CONFIG_DIR} ]; then
 	mkdir -p ${CONFIG_DIR}
