@@ -5,7 +5,7 @@
     "description": "Beta version of HADaemon (https://github.com/home-assistant/appdaemon/tree/hadashboard_beta)",
     "url": "https://github.com/DrJeff/hassio-addons-1",
     "startup": "after",
-    "image": "drjeff/{arch}-appdaemon",
+    "image": "mezz64/appdaemon:dash",
     "boot": "auto",
     "map": ["config:rw"],
     "options": {
