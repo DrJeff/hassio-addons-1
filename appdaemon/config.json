@@ -1,15 +1,15 @@
 {
     "name": "AppDaemon",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "slug": "appdaemon",
     "description": "Beta version of HADaemon (https://github.com/home-assistant/appdaemon/tree/hadashboard_beta)",
-    "url": "https://github.com/vkorn/hassio-addons",
+    "url": "https://github.com/DrJeff/hassio-addons-1",
     "startup": "after",
-    "image": "vkorn/{arch}-appdaemon",
+    "image": "drjeff/{arch}-appdaemon",
     "boot": "auto",
     "map": ["config:rw"],
     "options": {
-        "domain": "cp.local.io"
+        "domain": "192.168.0.179"
     },
     "schema": {
         "domain": "str"
